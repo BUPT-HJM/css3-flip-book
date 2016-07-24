@@ -133,81 +133,17 @@
 
 
 
-		@keyframes flipBook1
-	    {
-	    0%   {-webkit-transform: rotateY(0deg);
-	            -ms-transform: rotateY(0deg);
-	            -o-transform: rotateY(0deg);
-	            transform: rotateY(0deg);}
-	    50% {-webkit-transform: rotateY(-160deg);
-	            -ms-transform: rotateY(-160deg);
-	            -o-transform: rotateY(-160deg);
-	            transform: rotateY(-160deg);}
-	    100% {-webkit-transform: rotateY(-10deg);
-	            -ms-transform: rotateY(-10deg);
-	            -o-transform: rotateY(-10deg);
-	            transform: rotateY(-10deg);}
-	    }
-	    /* Firefox */
-	    @-moz-keyframes flipBook1
-	    {
-	    0%   {-webkit-transform: rotateY(0deg);
-	            -ms-transform: rotateY(0deg);
-	            -o-transform: rotateY(0deg);
-	            transform: rotateY(0deg);}
-	    50% {-webkit-transform: rotateY(-160deg);
-	            -ms-transform: rotateY(-160deg);
-	            -o-transform: rotateY(-160deg);
-	            transform: rotateY(-160deg);}
-	    100% {-webkit-transform: rotateY(-10deg);
-	            -ms-transform: rotateY(-10deg);
-	            -o-transform: rotateY(-10deg);
-	            transform: rotateY(-10deg);}
-	    }
-	    /* Safari and Chrome */
-	    @-webkit-keyframes flipBook1
-	    {
-	    0%   {-webkit-transform: rotateY(0deg);
-	            -ms-transform: rotateY(0deg);
-	            -o-transform: rotateY(0deg);
-	            transform: rotateY(0deg);}
-	    50% {-webkit-transform: rotateY(-160deg);
-	            -ms-transform: rotateY(-160deg);
-	            -o-transform: rotateY(-160deg);
-	            transform: rotateY(-160deg);}
-	    100% {-webkit-transform: rotateY(-10deg);
-	            -ms-transform: rotateY(-10deg);
-	            -o-transform: rotateY(-10deg);
-	            transform: rotateY(-10deg);}
-	    }
-	    /* Opera */
-	    @-o-keyframes flipBook1
-	    {
-	    0%   {-webkit-transform: rotateY(0deg);
-	            -ms-transform: rotateY(0deg);
-	            -o-transform: rotateY(0deg);
-	            transform: rotateY(0deg);}
-	    50% {-webkit-transform: rotateY(-160deg);
-	            -ms-transform: rotateY(-160deg);
-	            -o-transform: rotateY(-160deg);
-	            transform: rotateY(-160deg);}
-	    100% {-webkit-transform: rotateY(-10deg);
-	            -ms-transform: rotateY(-10deg);
-	            -o-transform: rotateY(-10deg);
-	            transform: rotateY(-10deg);}
-	    }
-
 
 
 
 
 		/*书的封面*/
-		.book-page-1 {
-			-webkit-transform: rotateY(-10deg);
-            -ms-transform: rotateY(-10deg);
-            -o-transform: rotateY(-10deg);
-            transform: rotateY(-10deg);
-		}
+		/*.book-page-1 {
+			-webkit-transform: rotateY(-5deg);
+            -ms-transform: rotateY(-5deg);
+            -o-transform: rotateY(-5deg);
+            transform: rotateY(-5deg);
+		}*/
     	.book-page-1 .page-front {
 			background-color: #1976D2;
     	}
@@ -220,10 +156,10 @@
     		margin-top: 100px;
     	}
 		.flip-animation-1 {
-			animation: flipBook1 17s;
-	        -moz-animation: flipBook1 17s; /* Firefox */
-	        -webkit-animation: flipBook1 17s; /* Safari and Chrome */
-	        -o-animation: flipBook1 17s; /* Opera */
+			animation: flipBook 17s;
+	        -moz-animation: flipBook 17s; /* Firefox */
+	        -webkit-animation: flipBook 17s; /* Safari and Chrome */
+	        -o-animation: flipBook 17s; /* Opera */
 		}
 		/*书的第二页*/
     	.book-page-2 .page-back, .book-page-2 .page-front {
@@ -250,10 +186,10 @@
     		margin-top: 100px;
     	}
 		.flip-animation-3 {
-			animation: flipBook 10s 3s;
-	        -moz-animation: flipBook 10s 3s; /* Firefox */
-	        -webkit-animation: flipBook 10s 3s; /* Safari and Chrome */
-	        -o-animation: flipBook 10s 3s; /* Opera */
+			animation: flipBook 11s 3s;
+	        -moz-animation: flipBook 11s 3s; /* Firefox */
+	        -webkit-animation: flipBook 11s 3s; /* Safari and Chrome */
+	        -o-animation: flipBook 11s 3s; /* Opera */
 		}
 		/*书的第四页*/
 		.book-page-4 .page-front p {
